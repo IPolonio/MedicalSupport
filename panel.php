@@ -27,7 +27,7 @@
                     <td>Presente</td>
                     <td></td>
                     <td><a href="feedback.php?user=Maria" class="btn btn-primary">Dar Feedback</a></td>
-                    <td><a href="assign_task.php?user=Maria" class="btn btn-success">Asignar Tarea</a></td>
+                    <td><a href="asignar.php?user=Maria" class="btn btn-success">Asignar Tarea</a></td>
                 </tr>
                 <tr>
                     <td>Juan</td>

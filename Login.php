@@ -15,11 +15,7 @@ if ($_POST) {
     $user->usuario = $_POST['username'];
     $user->password  = $_POST['password'];
 
-
-   
     if (($user->usuario == DEFAULT_USER && $user->password == DEFAULT_PASSWORD)) {
-      
-        
             $user->usuario = "Default user";
             setuser($user);
             cargar('panel.php');
@@ -31,7 +27,6 @@ if ($_POST) {
     } else {
         $mensaje = mensaje::warning("La contraseña o el usuario es incorrecto");
     }
-    
 }
 ?>
 <!DOCTYPE html>
