@@ -1,0 +1,79 @@
+{
+    "packages": [
+        {
+            "name": "donatj/simplecalendar",
+            "version": "v0.8.0",
+            "version_normalized": "0.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/donatj/SimpleCalendar.git",
+                "reference": "c0113645a930a348fbeafc83fb3fc7132c9ee043"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/donatj/SimpleCalendar/zipball/c0113645a930a348fbeafc83fb3fc7132c9ee043",
+                "reference": "c0113645a930a348fbeafc83fb3fc7132c9ee043",
+                "shasum": ""
+            },
+            "require": {
+                "ext-calendar": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "corpus/coding-standard": "^0.6.0",
+                "donatj/drop": "^1.1",
+                "ext-dom": "*",
+                "friendsofphp/php-cs-fixer": "^3.3",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "time": "2023-11-03T04:01:07+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "donatj\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesse G. Donat",
+                    "email": "donatj@gmail.com",
+                    "homepage": "https://donatstudios.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A light, easy to use calendar rendering library",
+            "homepage": "https://donatstudios.com/SimpleCalendar",
+            "keywords": [
+                "calendar"
+            ],
+            "support": {
+                "issues": "https://github.com/donatj/SimpleCalendar/issues",
+                "source": "https://github.com/donatj/SimpleCalendar/tree/v0.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/donatj/15",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/donatj",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/donatj",
+                    "type": "ko_fi"
+                }
+            ],
+            "install-path": "../donatj/simplecalendar"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
