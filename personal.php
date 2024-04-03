@@ -32,7 +32,11 @@
 <body>
     <div class="container">
         <h1 class="mt-5">Estado de Presencia <strong>: Maria</strong></h1>
+
         <form action="personal.php" method="post" onsubmit="return showConfirmation()">
+
+        <form action="personal.php" method="post"  onsubmit="return showConfirmation()">
+
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="presence" id="present" value="present" onclick="hideJustification()">
                 <label class="form-check-label" for="present">
