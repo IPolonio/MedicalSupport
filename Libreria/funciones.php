@@ -2,9 +2,8 @@
 
 function salir(){
 
-session_destroy();
-cargar('Login.php');
-
+    session_destroy();
+    cargar('Login.php');
 
 }
 
@@ -21,11 +20,12 @@ function cargar($url)
 
     echo "
     <script>
-    window.location ='{$url}';
+        window.location ='{$url}';
     </script>
     ";
     exit();
 }
+
 function asig_inpt($label, $id, $valor = "", $extra = [])
 {
     $type = "text";
@@ -50,7 +50,6 @@ function GUID()
     return sprintf('%04X%04X-%04X-%04X-%04X-%04X%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
 }
 
-
 /**
  * Retorna el usuario actual 
  * @param boolean $redirect si es verdadero redirige a login.php si no hay usuario 
@@ -63,12 +62,9 @@ function getuser($redirect = true)
         $final = unserialize($temporal);
 
         return $final;
-
-        
     }
+
     if ($redirect) {
-
-
         cargar('login.php');
     }
 
@@ -76,13 +72,8 @@ function getuser($redirect = true)
 }
 
 function setuser($usuario){
-
-$_SESSION['pokeuser']= serialize($usuario);
-
-
-
+    $_SESSION['pokeuser']= serialize($usuario);
 }
-
 
 class mensaje {
     public static function error($mensaje) {
