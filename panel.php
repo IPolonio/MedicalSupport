@@ -27,14 +27,18 @@
                     <td>Presente</td>
                     <td></td>
                     <td><a href="feedback.php?user=Maria" class="btn btn-primary">Dar Feedback</a></td>
-                    <td><a href="assign_task.php?user=Maria" class="btn btn-success">Asignar Tarea</a></td>
+
+                    <td><a href="asignar.php?user=Maria" class="btn btn-success">Asignar Tarea</a></td>
+
+                    <td><a href="asignar.php?user=Maria" class="btn btn-success">Asignar Turno</a></td>
+
                 </tr>
                 <tr>
                     <td>Juan</td>
                     <td>Ausente</td>
                     <td>Enfermedad</td>
-                    <td><a href="asignar.php?user=Juan" class="btn btn-primary">Dar Feedback</a></td>
-                    <td><a href="asignar.php?user=Juan" class="btn btn-success">Asignar Tarea</a></td>
+                    <td><a href="feedback.php?user=Juan" class="btn btn-primary">Dar Feedback</a></td>
+                    <td><a href="asignar.php?user=Juan" class="btn btn-success">Asignar Turno</a></td>
                 </tr>
                 <!-- ... -->
             </tbody>
